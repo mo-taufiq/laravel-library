@@ -1,0 +1,35 @@
+#toast-container {
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.toast {
+    animation-name: right-to-left;
+    animation-duration: .5s;
+}
+
+@keyframes right-to-left {
+    from {
+        transform: translateX(100px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.toast.down {
+    animation-name: top-to-bottom;
+    animation-duration: .8s;
+}
+
+@keyframes top-to-bottom {
+    from {
+        transform: translateY(-100px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
