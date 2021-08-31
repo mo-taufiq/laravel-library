@@ -7,12 +7,12 @@
     ```bash
     composer install
     ```
-- Copy file `.env.example` then rename it `.env`.
+- Copy file `.env.example` then rename it to `.env`.
 - Run this command.
     ```
     php artisan key:generate
     ```
-- Create new database using `MySQL`.
+- Create new database using `MySQL`, the name of new database is up to you.
 - Set database configuration on file `.env`, based on your local database configuration.
 - Run this command
     ```bash
