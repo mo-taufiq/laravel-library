@@ -14,6 +14,11 @@
     ```
 - Create new database using `MySQL`, the name of new database is up to you.
 - Set database configuration on file `.env`, based on your local database configuration.
+    ```
+    DB_DATABASE=<the name of new database that already you created>
+    DB_USERNAME=<your local mysql username>
+    DB_PASSWORD=<your local mysql password>
+    ```
 - Run this command
     ```bash
     php artisan migrate:fresh --seed
